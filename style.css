@@ -1,0 +1,113 @@
+body {
+  background: radial-gradient(circle at 55% 55%, #d4c2fc 5%, #998fc7 90%);
+}
+
+.footer {
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  margin-top: 6%;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 480px;
+  height: 540px;
+  background: none;
+  cursor: url("http://www.rw-designer.com/icon-image/15711-64x64x32.png"), auto;
+}
+
+.block {
+  position: absolute;
+  width: 33%;
+  height: 20%;
+  margin-top: 0%;
+  background: none;
+  font-size: 40px;
+  color: #FFFFFF;
+  text-align: center;
+  border-bottom: solid 2px #d4c2fc;
+  border-left: solid 2px #d4c2fc;
+  text-shadow: 0 0 4px #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-size: cover;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+html.non-touch .block:hover {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.cross {
+  background: url("http://www.rw-designer.com/icon-image/15711-64x64x32.png") no-repeat center;
+  cursor: no-drop;
+}
+
+.top {
+  top: 0%;
+}
+
+.bottom {
+  bottom: 0%;
+  border-bottom: none;
+}
+
+.t-middle {
+  top: 20%;
+}
+
+.v-middle {
+  top: 40%;
+}
+
+.b-middle {
+  top: 60%;
+}
+
+.h-middle {
+  left: 33%;
+}
+
+.right {
+  right: 0%;
+}
+
+.left {
+  left: 0%;
+  border-left: none;
+}
+
+.correct {
+  background: #5ef38c;
+  cursor: no-drop;
+}
+
+.unused {
+  background: none;
+  cursor: no-drop;
+  visibility: hidden;
+}
+
+.incorrect {
+  background: #b10f2e;
+}
+
+.status {
+  position: relative;
+  top: 108%;
+  font-family: "Indie Flower", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .box {
+    margin-top: 2%;
+    width: 300px;
+    height: 500px;
+  }
+}
