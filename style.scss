@@ -1,0 +1,140 @@
+$cl-main-1: #d4c2fc;
+$cl-main-2: #998fc7;
+$cl-line: #d4c2fc;
+$cl-pen: #FFFFFF;//rgba(40,	38,	44, 1.5); //#28262c; want opague background image, but not too light text
+$cl-hover: #998fc7;
+$cl-incorrect: #b10f2e;
+$cl-correct: #5ef38c;
+$border-grid: solid 2px $cl-line;
+
+$url-x: "http://www.rw-designer.com/icon-image/15711-64x64x32.png";
+$cursor-x: url($url-x), auto;
+$cursor-used: no-drop;
+
+body {
+  background: radial-gradient(circle at 55% 55%, $cl-main-1 5%, $cl-main-2 90%);
+}
+
+.footer {
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  margin-top: 6%;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  width: 480px;
+  height: 540px;
+  background: none;
+  cursor: $cursor-x;
+  //border: solid 4px red;
+}
+
+.block {
+  position: absolute;
+  width: 33%;
+  height: 20%;
+  margin-top: 0%;
+  background: none;
+  font-size: 40px;
+  color: $cl-pen;
+  text-align: center;
+  border-bottom: $border-grid;
+  border-left: $border-grid;
+  text-shadow: 0 0 4px #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-size:cover;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+
+
+
+
+html.non-touch .block:hover {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+
+
+.empty-block {
+  //  background: none;
+}
+
+.cross {
+  background: url($url-x) no-repeat center;
+  cursor: $cursor-used;
+}
+
+.top {
+  top: 0%;
+}
+
+.bottom {
+  bottom: 0%;
+  border-bottom: none;
+}
+
+.t-middle {
+  top: 20%;
+}
+
+.v-middle {
+  top: 40%;
+}
+
+.b-middle {
+  top: 60%;
+}
+
+.h-middle {
+  left: 33%;
+}
+
+.right {
+  right: 0%;
+}
+
+.left {
+  left: 0%;
+  border-left: none;
+}
+
+.correct {
+  background: $cl-correct;
+  cursor: $cursor-used;
+}
+
+.unused {
+  background: none;
+  cursor: $cursor-used;
+  visibility: hidden;
+}
+
+.incorrect {
+  background: $cl-incorrect;
+}
+
+.status {
+  position: relative;
+  top: 108%;
+  font-family: "Indie Flower", cursive;
+  font-size: 40px;
+  text-align: center;
+  //border: solid 4px red;
+}
+
+@media screen and (max-width: 400px) {
+  .box {
+    margin-top: 2%;
+    width: 300px;
+    height: 500px;
+  }
+}
