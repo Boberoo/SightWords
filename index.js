@@ -13,9 +13,31 @@ var words = [
     "https://images.pexels.com/photos/802412/pexels-photo-802412.jpeg?auto=compress&cs=tinysrgb&h=350"
   ],
   [
+    "duck",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mallard2.jpg/1200px-Mallard2.jpg"
+  ],
+  [
+    "fast",
+    "https://www.publicdomainpictures.net/pictures/180000/velka/fast-sport-car-1466168715EF7.jpg"
+  ],
+  [
+    "go",
+    "http://www.gonorthdevon.co.uk/images/other/green-arrow.png"
+  ],
+  [
     "here",
     "https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&h=350"
   ],
+  [
+    "hop",
+    "https://d368g9lw5ileu7.cloudfront.net/races/race41842-logo.bywwEt.png"
+  ],
+  
+  [
+    "like",
+    "https://www.brafton.com/wp-content/uploads/2013/04/shutterstock_128836729-350x350.jpg"
+  ],
+  
   [
     "ride",
     "https://www.onlinekeystore.com/images/D/ss_a0a374475b21a9f533694c0b749ac66c0b9b7aa4.1920x1080.jpg"
