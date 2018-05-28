@@ -17,6 +17,11 @@ var words = [
     "https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&h=350"
   ],
   [
+    "ride",
+    "https://www.onlinekeystore.com/images/D/ss_a0a374475b21a9f533694c0b749ac66c0b9b7aa4.1920x1080.jpg"
+  ],
+ 
+  [
     "come",
     "https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&h=350"
   ],
@@ -92,6 +97,15 @@ var words = [
     "out",
     "https://images.pexels.com/photos/134065/pexels-photo-134065.jpeg?auto=compress&cs=tinysrgb&h=350"
   ],
+  [
+    "see",
+    "http://4.bp.blogspot.com/-QGjJ-R7HuO8/T-lJk36tdVI/AAAAAAAADqM/IdEY0pa_dgA/s1600/sight.jpg"
+  ],
+  
+  [
+    "swim",
+    "https://fthmb.tqn.com/ubtG9v0_h9guBBk4l5V3lXCJ6qY=/4000x2564/filters:fill(auto,1)/LochteFreestyleBreathing-56a9262a3df78cf772a4337a.jpg"
+  ],  
   [
     "in",
     "https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&h=350"
