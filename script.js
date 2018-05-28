@@ -86,6 +86,11 @@ var words = [
     "https://images.pexels.com/photos/262103/pexels-photo-262103.jpeg?auto=compress&cs=tinysrgb&h=350"
   ],
   [
+    "home",
+    "http://www.wilmingtonfarmers.com/wp-content/uploads/2018/04/house-621x414.jpg"
+  ],
+  
+  [
     "but",
     "https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&h=350"
   ],
@@ -105,7 +110,12 @@ var words = [
   [
     "swim",
     "https://fthmb.tqn.com/ubtG9v0_h9guBBk4l5V3lXCJ6qY=/4000x2564/filters:fill(auto,1)/LochteFreestyleBreathing-56a9262a3df78cf772a4337a.jpg"
-  ],  
+  ],
+  [
+    "where",
+    "http://www.nationinstitute.org/images/managed/where-to-go-from-here.png"
+  ],
+  
   [
     "in",
     "https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&h=350"
