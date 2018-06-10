@@ -1,4 +1,4 @@
-//enter word your child knows/struggles with
+NOT USED?!?!?!?//enter word your child knows/struggles with
 var words = [
   [
     "Lad",
