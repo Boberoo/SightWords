@@ -205,7 +205,9 @@ function resetGrid() {
     gridWordNums.push(wordNum);
     availableWordNums.splice(index, 1);
     //sayIt(words[wordNum][0]); //remove later once they get the hang of it - too slow
-    $("#" + (i + 1)).css("background-image", "url('"+words[wordNum][1]+"')");
+    if (showImages) {
+      $("#" + (i + 1)).css("background-image", "url('"+words[wordNum][1]+"')");
+    }
     //$("#image" + (i + 1)).html(
     //  '<img src="' + words[wordNum][1] + '" alt="' + words[wordNum][0] + '">'
     //);
