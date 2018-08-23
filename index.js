@@ -1,4 +1,4 @@
-//enter word your child knows/struggles with
+//enter word your child knows/struggles with, or out the homework list
 var words = [
   [
     "Lad",
@@ -8,13 +8,25 @@ var words = [
     "Ben",
     "https://images.pexels.com/photos/164835/pexels-photo-164835.jpeg?auto=compress&cs=tinysrgb&h=350"
   ],
+   [
+    "book",
+    "https://previews.123rf.com/images/benchart/benchart1204/benchart120400018/13237662-illustration-of-a-cartoon-opened-brown-book.jpg"
+  ],
   [
     "look",
     "https://images.pexels.com/photos/802412/pexels-photo-802412.jpeg?auto=compress&cs=tinysrgb&h=350"
   ],
+[
+    "dog",
+    "https://cdn.pixabay.com/photo/2014/08/21/14/51/pet-423398__340.jpg"
+  ],  
   [
     "duck",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Mallard2.jpg/1200px-Mallard2.jpg"
+  ],
+  [
+    "eat",
+    "https://t.rmncdn.com/blog/2016/08/kids-eat-free-hero1-1471459190.jpg"
   ],
   [
     "fast",
@@ -111,7 +123,10 @@ var words = [
     "home",
     "http://www.wilmingtonfarmers.com/wp-content/uploads/2018/04/house-621x414.jpg"
   ],
-  
+  [
+    "mouse",
+    "http://vrjournal.com/wp-content/uploads/2015/10/Mouse-Tales-Neuroscientists-Work-on-Virtual-Reality-System-Using-Mice-Whiskers.jpg"
+  ],
   [
     "but",
     "https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&h=350"
@@ -124,11 +139,22 @@ var words = [
     "out",
     "https://images.pexels.com/photos/134065/pexels-photo-134065.jpeg?auto=compress&cs=tinysrgb&h=350"
   ],
+ [
+    "rabbit",
+    "https://www.farmingstyle.com/wp-content/uploads/2017/04/Rabbits1-1-800x416.jpg"
+  ],  
   [
     "see",
     "http://4.bp.blogspot.com/-QGjJ-R7HuO8/T-lJk36tdVI/AAAAAAAADqM/IdEY0pa_dgA/s1600/sight.jpg"
   ],
-  
+  [
+    "shouted",
+    "http://media.bsix12.com/2012/05/shout-570.jpg"
+  ],
+  [
+    "sleep",
+    "https://chopra.com/sites/default/files/field/image/ManSleeping.jpg"
+  ],
   [
     "swim",
     "https://fthmb.tqn.com/ubtG9v0_h9guBBk4l5V3lXCJ6qY=/4000x2564/filters:fill(auto,1)/LochteFreestyleBreathing-56a9262a3df78cf772a4337a.jpg"
